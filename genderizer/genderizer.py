@@ -6,8 +6,8 @@ from naiveBayesClassifier import tokenizer
 from naiveBayesClassifier.trainer import Trainer
 from naiveBayesClassifier.classifier import Classifier
 
-from namesCollection import NamesCollection
-from cachedModel import CachedModel
+from .namesCollection import NamesCollection
+from .cachedModel import CachedModel
 
 
 class Genderizer(object):
