@@ -1,5 +1,5 @@
 import memcache
-import cPickle
+import pickle as cPickle
 import os
 
 class CachedModel(object):
