@@ -45,7 +45,7 @@ class NamesCollection(object):
             item = {item[2]:item[1]}
 
             if firstName in items:
-                items[firstName] = dict(items[firstName].items() + item.items())
+                items[firstName] = dict(list(items[firstName].items()) + list(item.items()))
             else:
                 items[firstName] = item
 
